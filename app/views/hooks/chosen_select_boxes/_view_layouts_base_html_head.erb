@@ -1,5 +1,6 @@
 <% content_for :header_tags do %>
     <%= stylesheet_link_tag 'chosen/chosen.css', :plugin => 'chosen_select_boxes' %>
+    <%= javascript_include_tag "protolicious/event.simulate.js", :plugin => 'chosen_select_boxes'  %>
     <%= javascript_include_tag "chosen/chosen.proto.min.js", :plugin => 'chosen_select_boxes'  %>
     <%= javascript_include_tag "use_chosen_select.js", :plugin => 'chosen_select_boxes'  %>
 <% end %>
